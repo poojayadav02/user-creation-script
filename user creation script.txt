@@ -1,15 +1,7 @@
 mkdir -p /home/afkar/.ssh;
 touch /home/afkar/.ssh/authorized_keys;
 useradd -d /home/afkar afkar;
-usermod -aG sudo afkar;
-chown -R afkar:afkar /home/afkar/;
-chmod 700 /home/afkar/.ssh;
-chmod 600 /home/afkar/.ssh/authorized_keys;
 
-mkdir -p /home/xionghu/.ssh;
-touch /home/xionghu/.ssh/authorized_keys;
-useradd -d /home/xionghu xionghu;
-usermod -aG sudo xionghu;
 chown -R xionghu:xionghu /home/xionghu/;
 chmod 700 /home/xionghu/.ssh;
 chmod 600 /home/xionghu/.ssh/authorized_keys;
