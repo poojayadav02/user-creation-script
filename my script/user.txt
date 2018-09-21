@@ -5,7 +5,6 @@ usermod -aG sudo afkar;
 chown -R afkar:afkar /home/afkar/;
 chmod 700 /home/afkar/.ssh;
 chmod 600 /home/afkar/.ssh/authorized_keys;
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXRdBmMKUdPxvDiD1Kq0WfJ9ZV6tmN16apwojDvwix8NlZeYrL7KuN1xfD8tDMG+pmbcBp4yaAeSQCquuiz7cxNeNEtP8NCMp/4FKaDm5MY/P0EWcqoTCzF3uPxBAD/cZxHEQOb8jCeeKCHy0d669CaKHddRvWbfc82Y+plOAl5ciB4vos5JXFFiQ+cBuSXuTKERF3aafuKO8pa7iuz0E5A0W1Lx9eiwh3/i3gnv0uFqXn5zUvwi9M72pfjVljuiOdelLIsgFic3ss/R0I2QCJCGNXCxKGNMzfGex6srrCwQMqYop1MaqBIkE86Jtt9neDgIc8zXopcOXAcee/7l1R afkar@china-hop-server' > /home/afkar/.ssh/authorized_keys;
 
 mkdir -p /home/xionghu/.ssh;
 touch /home/xionghu/.ssh/authorized_keys;
@@ -14,4 +13,3 @@ usermod -aG sudo xionghu;
 chown -R xionghu:xionghu /home/xionghu/;
 chmod 700 /home/xionghu/.ssh;
 chmod 600 /home/xionghu/.ssh/authorized_keys;
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyr8M/+Fp4Ch5Z/cygVy1+TZpuHwcwLvFP1aXahi4/a82UdEe1ReZFqS8XAACKp2MhMjCBwNR2W7T3gvBIS7stJFztih52Ktu7L9xrP4fpJ+qeOKpDO2x0WRB9jkjF8o4euWWWVi9yk6G2u9acz1kDwgFZUN6H0cH65Ev2s3o1hDFZEegfAKwRRPrbGyQOwiIyLp2XeyxzCNo3BZw+nydeCxcJ2PQb+PpgVlYIh5bZTSOTcPfuWy2hWtB69zOhRD9NU1rpE7dctftvU4TGw1CFUlN1YmQQCM5nodTCvIYyO+0d6UZ5YdsPCdr9G/EUwL3zeaqeENN1f+TMbW8+3TLF xionghu@china-hop-server' > /home/xionghu/.ssh/authorized_keys;
